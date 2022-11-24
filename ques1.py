@@ -25,5 +25,6 @@ if __name__ == "__main__":
         'Code.py': 'Stan',
         'Output.txt': 'Randy'
     }
+
     # Output: {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
     print(group_by_owners(files))
